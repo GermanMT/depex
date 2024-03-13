@@ -1,7 +1,8 @@
-from requests import post
 from json import dump
 from os import makedirs
 from os.path import exists
+
+from requests import post
 
 repos = {
     "psf/requests": {
@@ -14,7 +15,7 @@ repos = {
         "pysocks": "1.6.2",
         "pytest-xdist": "0.0.0",
         "idna": "2.10",
-        "pytest-httpbin": "2.0.0"
+        "pytest-httpbin": "2.0.0",
     },
     "zerossB/zeus": {
         "jinja2": "2.10",
@@ -28,7 +29,7 @@ repos = {
         "pytest": "3.5.1",
         "py": "1.5.3",
         "attrs": "18.1.0",
-        "tox": "3.0.0"
+        "tox": "3.0.0",
     },
     "k1ng61/convai": {
         "antlr4-python3-runtime": "4.8",
@@ -67,7 +68,7 @@ repos = {
         "coloredlogs": "15.0",
         "boto3": "1.17.2",
         "grpcio": "1.35.0",
-        "mccabe": "0.6.1"
+        "mccabe": "0.6.1",
     },
     "Pylons/pyramid": {
         "zope-component": "4.3.0",
@@ -80,7 +81,7 @@ repos = {
         "webob": "1.8.3",
         "plaster": "0.4",
         "zope-deprecation": "4.4.0",
-        "plaster-pastedeploy": "0.1"
+        "plaster-pastedeploy": "0.1",
     },
     "MasoniteFramework/masonite": {
         "werkzeug": "2.2.3",
@@ -101,13 +102,13 @@ repos = {
         "cleo": "0.8.1",
         "python-dotenv": "0.15.0",
         "whitenoise": "5.2.0",
-        "hfilesize": "0.1.0"
+        "hfilesize": "0.1.0",
     },
     "hugapi/hug": {
         "pytest": "5.3.0",
         "requests": "2.4.2",
         "marshmallow": "3.9.1",
-        "falcon": "2.0.0"
+        "falcon": "2.0.0",
     },
     "xhongc/music-tag-web": {
         "pycryptodomex": "3.17",
@@ -127,13 +128,13 @@ repos = {
         "django": "2.2.6",
         "requests": "2.27.1",
         "django-simpleui": "2023.3.1",
-        "django-cors-headers": "3.2.1"
+        "django-cors-headers": "3.2.1",
     },
     "googleapis/python-api-core": {
         "requests": "2.20.0",
         "googleapis-common-protos": "1.56.2",
         "protobuf": "3.19.5",
-        "google-auth": "2.14.1"
+        "google-auth": "2.14.1",
     },
     "pallets/flask": {
         "click": "8.1.7",
@@ -141,7 +142,7 @@ repos = {
         "blinker": "1.6.2",
         "jinja2": "3.1.2",
         "itsdangerous": "2.1.2",
-        "werkzeug": "2.3.7"
+        "werkzeug": "2.3.7",
     },
     "reinhardt/plone.api": {
         "zope.configuration": "3.7.4",
@@ -455,12 +456,12 @@ repos = {
         "martian": "0.11.3",
         "mailinglogger": "3.7.0",
         "products.cmfactionicons": "2.1.3",
-        "zope.app.principalannotation": "3.7.0"
+        "zope.app.principalannotation": "3.7.0",
     },
     "boto/botocore": {
         "urllib3": "1.26.5",
         "jmespath": "0.9.0",
-        "python-dateutil": "2.1"
+        "python-dateutil": "2.1",
     },
     "mwielgoszewski/doorman": {
         "raven": "6.10.0",
@@ -514,23 +515,15 @@ repos = {
         "enum34": "1.1.6",
         "alembic": "1.0.5",
         "unicodecsv": "0.14.1",
-        "sqlalchemy": "1.2.15"
+        "sqlalchemy": "1.2.15",
     },
-    "boto/boto3": {
-        "jmespath": "0.10.0",
-        "s3transfer": "0.6.0",
-        "botocore": "1.31.35"
-
-    },
-    "django/django": {
-        "asgiref": "3.7.0",
-        "sqlparse": "0.3.1"
-    },
+    "boto/boto3": {"jmespath": "0.10.0", "s3transfer": "0.6.0", "botocore": "1.31.35"},
+    "django/django": {"asgiref": "3.7.0", "sqlparse": "0.3.1"},
     "aio-libs/aiobotocore": {
         "aiohttp": "3.9.0",
         "wrapt": "1.11.0",
         "botocore": "1.34.41",
-        "aioitertools": "0.5.1"
+        "aioitertools": "0.5.1",
     },
     "canvasnetworks/canvas": {
         "paramiko": "1.7.6",
@@ -582,8 +575,8 @@ repos = {
         "txAWS": "0.0.1",
         "rauth": "0.4.16",
         "pyserial": "2.6",
-        "bleach": "1.4.2"
-    }
+        "bleach": "1.4.2",
+    },
 }
 
 # First, create the dependency graph for each repository
@@ -598,5 +591,8 @@ for repo, config in repos.items():
         makedirs("tests/testing_workbenches")
     owner, name = repo.split("/")
     file = open(f"tests/testing_workbenches/{owner}_{name}.json", "w")
-    testing_workbench = post(f"http://localhost:8000/test_report/{owner}/{name}?package_manager=PIP", json=config).json()
+    testing_workbench = post(
+        f"http://localhost:8000/test_report/{owner}/{name}?package_manager=PIP",
+        json=config,
+    ).json()
     dump(testing_workbench, file, indent=4)

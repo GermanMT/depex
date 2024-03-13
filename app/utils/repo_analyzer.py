@@ -4,8 +4,6 @@ from os.path import exists, isdir
 
 from git import GitCommandError, Repo
 
-from .files.package_json_analyzer import analyze_package_json
-from .files.pom_xml_analyzer import analyze_pom_xml
 from .files.pyproject_toml_analyzer import analyze_pyproject_toml
 from .files.requirements_txt_analyzer import analyze_requirements_txt
 from .files.setup_cfg_analyzer import analyze_setup_cfg

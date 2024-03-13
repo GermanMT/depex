@@ -2,7 +2,7 @@ from time import sleep
 from typing import Any
 
 from dateutil.parser import parse
-from requests import ConnectionError, ConnectTimeout, get, JSONDecodeError
+from requests import ConnectionError, ConnectTimeout, JSONDecodeError, get
 
 from app.utils import get_first_position, parse_pip_constraints
 

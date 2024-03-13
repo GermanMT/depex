@@ -58,7 +58,7 @@ async def pip_create_package(
             await attribute_cves(version, cpe_product, "PIP")
             for version in all_versions
         ]
-        new_versions = await create_package_and_versions(
+        await create_package_and_versions(
             {"name": package_name, "moment": datetime.now()},
             versions,
             "PIP",
