@@ -1,0 +1,361 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "werkzeug",
+                "version": "2.2.3",
+                "file_path": "masonite/master/src/masonite/commands/ServeCommand.py",
+                "dep_artifacts": {
+                    "run_simple": [
+                        1,
+                        63
+                    ]
+                },
+                "vulnerability": "CVE-2023-46136",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test2": {
+                "dependency": "cryptography",
+                "version": "1.6",
+                "file_path": "masonite/master/src/masonite/auth/Sign.py",
+                "dep_artifacts": {
+                    "Fernet": [
+                        4,
+                        49,
+                        69
+                    ],
+                    " InvalidToken": [
+                        4,
+                        76
+                    ]
+                },
+                "vulnerability": "CVE-2020-36242",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "cryptography",
+                "version": "1.6",
+                "file_path": "masonite/master/src/masonite/commands/KeyCommand.py",
+                "dep_artifacts": {
+                    "Fernet": [
+                        2,
+                        17
+                    ]
+                },
+                "vulnerability": "CVE-2020-36242",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test4": {
+                "dependency": "jinja2",
+                "version": "2.0",
+                "file_path": "masonite/master/tests/core/views/test_view.py",
+                "dep_artifacts": {
+                    "TemplateNotFound": [
+                        5
+                    ]
+                },
+                "vulnerability": "CVE-2014-1402",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test5": {
+                "dependency": "jinja2",
+                "version": "2.0",
+                "file_path": "masonite/master/src/masonite/facades/View.pyi",
+                "dep_artifacts": {
+                    "PackageLoader": [
+                        2
+                    ],
+                    " BaseLoader": [
+                        2
+                    ]
+                },
+                "vulnerability": "CVE-2014-1402",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test6": {
+                "dependency": "jinja2",
+                "version": "2.0",
+                "file_path": "masonite/master/src/masonite/views/view.py",
+                "dep_artifacts": {
+                    "TemplateNotFound": [
+                        11,
+                        93,
+                        97
+                    ],
+                    "ext.loopcontrols\"]": [
+                        46
+                    ]
+                },
+                "vulnerability": "CVE-2014-1402",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test7": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/tests/integrations/test_package/commands/Command1.py",
+                "dep_artifacts": {
+                    "Command": [
+                        1
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test8": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/tests/integrations/test_package/commands/Command2.py",
+                "dep_artifacts": {
+                    "Command": [
+                        1
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test9": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/tests/tests/test_commands.py",
+                "dep_artifacts": {
+                    "Command": [
+                        1,
+                        7,
+                        24
+                    ],
+                    "Application": [
+                        2,
+                        22
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test10": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/foundation/Kernel.py",
+                "dep_artifacts": {
+                    "Application": [
+                        2,
+                        73
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test11": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/tests/TestCommand.py",
+                "dep_artifacts": {
+                    "CommandTester": [
+                        1,
+                        18
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test12": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/scheduling/commands/ScheduleRunCommand.py",
+                "dep_artifacts": {
+                    "Command": [
+                        2,
+                        5
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test13": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/routes/commands/RouteListCommand.py",
+                "dep_artifacts": {
+                    "Command": [
+                        3,
+                        8
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test14": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/commands/Command.py",
+                "dep_artifacts": {
+                    "Command": [
+                        1,
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test15": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/commands/Entry.py",
+                "dep_artifacts": {
+                    "Application": [
+                        8,
+                        17
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test16": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/commands/CommandCapsule.py",
+                "dep_artifacts": {
+                    "Application": [
+                        4
+                    ],
+                    "Command": [
+                        5
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test17": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/events/commands/MakeEventCommand.py",
+                "dep_artifacts": {
+                    "Command": [
+                        2,
+                        11
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test18": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/events/commands/MakeListenerCommand.py",
+                "dep_artifacts": {
+                    "Command": [
+                        2,
+                        11
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test19": {
+                "dependency": "cleo",
+                "version": "0.8.1",
+                "file_path": "masonite/master/src/masonite/notification/commands/NotificationTableCommand.py",
+                "dep_artifacts": {
+                    "Command": [
+                        2,
+                        10
+                    ]
+                },
+                "vulnerability": "CVE-2022-42966",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

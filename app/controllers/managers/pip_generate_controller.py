@@ -66,8 +66,8 @@ async def pip_create_package(
             parent_id,
             parent_version_name,
         )
-        for new_version in new_versions:
-            await pip_extract_packages(package_name, new_version)
+        # for new_version in new_versions:
+        #     await pip_extract_packages(package_name, new_version)
 
 
 async def pip_extract_packages(

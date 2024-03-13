@@ -1,0 +1,1106 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "werkzeug",
+                "version": "0.14.1",
+                "file_path": "doorman/master/tests/test_integration.py",
+                "dep_artifacts": {
+                    "BuildError": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2019-14322",
+                "vuln_impact": 3.6,
+                "exploit": "https://www.exploit-db.com/exploits/50101",
+                "payload": "https://www.exploit-db.com/download/50101",
+                "automatable": true
+            }
+        },
+        {
+            "test2": {
+                "dependency": "werkzeug",
+                "version": "0.14.1",
+                "file_path": "doorman/master/tests/test_integration.py",
+                "dep_artifacts": {
+                    "BuildError": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2019-14806",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "werkzeug",
+                "version": "0.14.1",
+                "file_path": "doorman/master/tests/test_integration.py",
+                "dep_artifacts": {
+                    "BuildError": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2022-29361",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test4": {
+                "dependency": "werkzeug",
+                "version": "0.14.1",
+                "file_path": "doorman/master/tests/test_integration.py",
+                "dep_artifacts": {
+                    "BuildError": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2023-23934",
+                "vuln_impact": 1.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test5": {
+                "dependency": "werkzeug",
+                "version": "0.14.1",
+                "file_path": "doorman/master/tests/test_integration.py",
+                "dep_artifacts": {
+                    "BuildError": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2023-25577",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test6": {
+                "dependency": "werkzeug",
+                "version": "0.14.1",
+                "file_path": "doorman/master/tests/test_integration.py",
+                "dep_artifacts": {
+                    "BuildError": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2023-46136",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test7": {
+                "dependency": "requests",
+                "version": "2.21.0",
+                "file_path": "doorman/master/doorman/users/oauth.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test8": {
+                "dependency": "requests",
+                "version": "2.21.0",
+                "file_path": "doorman/master/doorman/plugins/alerters/pagerduty.py",
+                "dep_artifacts": {
+                    "post": [
+                        62
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test9": {
+                "dependency": "requests",
+                "version": "2.21.0",
+                "file_path": "doorman/master/doorman/plugins/alerters/slack.py",
+                "dep_artifacts": {
+                    "post": [
+                        49
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test10": {
+                "dependency": "celery",
+                "version": "4.2.1",
+                "file_path": "doorman/master/doorman/worker.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2021-23727",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test11": {
+                "dependency": "celery",
+                "version": "4.2.1",
+                "file_path": "doorman/master/doorman/application.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2021-23727",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test12": {
+                "dependency": "celery",
+                "version": "4.2.1",
+                "file_path": "doorman/master/doorman/tasks.py",
+                "dep_artifacts": {
+                    "Celery": [
+                        2,
+                        7
+                    ],
+                    "task": [
+                        10,
+                        17,
+                        24,
+                        30,
+                        59
+                    ]
+                },
+                "vulnerability": "CVE-2021-23727",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test13": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/tests/test_integration.py",
+                "dep_artifacts": {
+                    "url_for": [
+                        4,
+                        15,
+                        17
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test14": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/tests/test_alerters.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test15": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/tests/test_utils.py",
+                "dep_artifacts": {
+                    "current_app": [
+                        6,
+                        44,
+                        50,
+                        51
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test16": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/tests/test_functional.py",
+                "dep_artifacts": {
+                    "url_for": [
+                        3,
+                        54,
+                        59,
+                        64,
+                        71,
+                        85,
+                        99,
+                        124,
+                        144,
+                        164,
+                        188,
+                        210,
+                        225,
+                        239,
+                        255,
+                        272,
+                        291,
+                        309,
+                        314,
+                        320,
+                        325,
+                        332,
+                        361,
+                        391,
+                        399,
+                        435,
+                        466,
+                        471,
+                        486,
+                        511,
+                        545,
+                        562,
+                        603,
+                        629,
+                        698,
+                        791,
+                        828,
+                        843,
+                        860,
+                        874,
+                        900,
+                        911,
+                        931,
+                        949,
+                        979,
+                        1016,
+                        1039,
+                        1067,
+                        1082,
+                        1125,
+                        1150,
+                        1161,
+                        1163,
+                        1169,
+                        1181,
+                        1198,
+                        1215,
+                        1240,
+                        1254,
+                        1272,
+                        1295,
+                        1371,
+                        1511,
+                        1544,
+                        1624,
+                        1705
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test17": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/assets.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test18": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/users/forms.py",
+                "dep_artifacts": {
+                    "current_app": [
+                        3,
+                        32,
+                        48,
+                        66,
+                        73
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test19": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/users/views.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test20": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/users/mixins.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test21": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/users/oauth.py",
+                "dep_artifacts": {
+                    "abort": [
+                        2,
+                        130,
+                        139,
+                        146,
+                        151
+                    ],
+                    " current_app": [
+                        2,
+                        129,
+                        132,
+                        135,
+                        142
+                    ],
+                    " flash": [
+                        2,
+                        137,
+                        144,
+                        149
+                    ],
+                    " request": [
+                        2,
+                        109
+                    ],
+                    " session": [
+                        2,
+                        110
+                    ],
+                    " url_for": [
+                        2,
+                        34
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test22": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/utils.py",
+                "dep_artifacts": {
+                    "current_app": [
+                        13,
+                        49,
+                        146,
+                        159,
+                        167,
+                        172,
+                        185,
+                        263,
+                        280,
+                        292,
+                        328,
+                        381,
+                        435,
+                        453
+                    ],
+                    " flash": [
+                        13,
+                        134,
+                        139,
+                        151,
+                        179,
+                        393
+                    ],
+                    "pocoo.org/snippets/12/'''": [
+                        387
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test23": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/models.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test24": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/manage/forms.py",
+                "dep_artifacts": {
+                    "current_app": [
+                        4,
+                        160
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test25": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/manage/views.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test26": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/application.py",
+                "dep_artifacts": {
+                    "Flask": [
+                        4,
+                        19
+                    ],
+                    " render_template": [
+                        4,
+                        100
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test27": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/api.py",
+                "dep_artifacts": {
+                    "Blueprint": [
+                        8,
+                        21
+                    ],
+                    " current_app": [
+                        8,
+                        37,
+                        51,
+                        58,
+                        90,
+                        100,
+                        103,
+                        112,
+                        113,
+                        121,
+                        122,
+                        130,
+                        136,
+                        156,
+                        161,
+                        162,
+                        197,
+                        215,
+                        235,
+                        237,
+                        238,
+                        260,
+                        263,
+                        279,
+                        302,
+                        303,
+                        316,
+                        328
+                    ],
+                    " jsonify": [
+                        8,
+                        55,
+                        62,
+                        107,
+                        125,
+                        147,
+                        171,
+                        203,
+                        224,
+                        268,
+                        291,
+                        350
+                    ],
+                    " request": [
+                        8,
+                        29,
+                        30,
+                        31,
+                        34,
+                        41,
+                        53,
+                        60,
+                        88,
+                        94,
+                        105,
+                        123,
+                        132,
+                        138,
+                        158,
+                        165,
+                        198,
+                        217,
+                        233,
+                        261,
+                        277,
+                        281,
+                        300,
+                        319,
+                        330
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test28": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/extensions.py",
+                "dep_artifacts": {
+                    "pocoo.org/docs/0.10/patterns/celery/": [
+                        168
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test29": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/plugins/alerters/debug.py",
+                "dep_artifacts": {
+                    "current_app": [
+                        4,
+                        24
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test30": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/plugins/alerters/emailer.py",
+                "dep_artifacts": {
+                    "render_template": [
+                        5,
+                        35,
+                        45
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test31": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/plugins/alerters/sentry.py",
+                "dep_artifacts": {
+                    "current_app": [
+                        4,
+                        24,
+                        38
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test32": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/doorman/tasks.py",
+                "dep_artifacts": {
+                    "current_app": [
+                        3,
+                        12,
+                        55,
+                        138
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test33": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/manage.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test34": {
+                "dependency": "flask",
+                "version": "1.0.2",
+                "file_path": "doorman/master/migrations/env.py",
+                "dep_artifacts": {
+                    "current_app": [
+                        6,
+                        22,
+                        23,
+                        76
+                    ]
+                },
+                "vulnerability": "CVE-2023-30861",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test35": {
+                "dependency": "jinja2",
+                "version": "2.10",
+                "file_path": "doorman/master/doorman/utils.py",
+                "dep_artifacts": {
+                    "Markup": [
+                        14,
+                        451
+                    ],
+                    " Template": [
+                        14,
+                        445
+                    ]
+                },
+                "vulnerability": "CVE-2019-8341",
+                "vuln_impact": 5.9,
+                "exploit": "https://www.exploit-db.com/exploits/46386",
+                "payload": "https://www.exploit-db.com/download/46386",
+                "automatable": true
+            }
+        },
+        {
+            "test36": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/tests/test_functional.py",
+                "dep_artifacts": {
+                    "and_": [
+                        4,
+                        1311
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test37": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/doorman/manage/views.py",
+                "dep_artifacts": {
+                    "or_": [
+                        15,
+                        231,
+                        771
+                    ],
+                    "joinedload": [
+                        16,
+                        191,
+                        192,
+                        197,
+                        198,
+                        297,
+                        298,
+                        299,
+                        338,
+                        339,
+                        340
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test38": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/doorman/database.py",
+                "dep_artifacts": {
+                    "ARRAY": [
+                        3
+                    ],
+                    " JSONB": [
+                        3
+                    ],
+                    " INET": [
+                        3
+                    ],
+                    "declared_attr": [
+                        4
+                    ],
+                    "relationship": [
+                        5,
+                        80
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test39": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/doorman/tasks.py",
+                "dep_artifacts": {
+                    "func": [
+                        85,
+                        101
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test40": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/env.py",
+                "dep_artifacts": {
+                    "engine_from_config": [
+                        3,
+                        68
+                    ],
+                    " pool": [
+                        3
+                    ],
+                    "url',": [
+                        21
+                    ],
+                    "url\"": [
+                        43
+                    ],
+                    "',": [
+                        69
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test41": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/c107fa0468ff_add_indexes_to_improve_various_sql_.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test42": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/236318ee3d3e_add_is_active_and_last_ip_columns.py",
+                "dep_artifacts": {
+                    "postgresql": [
+                        16,
+                        21
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test43": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/14c992522209_.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test44": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/b50c705fea80_migrate_to_new_rules_architecture.py",
+                "dep_artifacts": {
+                    "postgresql": [
+                        16,
+                        20,
+                        30,
+                        32
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test45": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/0bc0a93ac867_.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test46": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/c17f01adbe31_add_updated_at_column_to_rule.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test47": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/4f95ecd76bf8_normalize_distributed_query_architecture.py",
+                "dep_artifacts": {
+                    "postgresql": [
+                        17
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test48": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/d2b00dd93241_initial_revision.py",
+                "dep_artifacts": {
+                    "postgresql": [
+                        16,
+                        113,
+                        131
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test49": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/fd28e46e46a6_.py",
+                "dep_artifacts": {
+                    "postgresql": [
+                        16,
+                        25,
+                        26,
+                        36
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test50": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/54ef3f06612c_add_node_info_column_to_capture.py",
+                "dep_artifacts": {
+                    "postgresql": [
+                        16,
+                        20
+                    ]
+                },
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test51": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/versions/a76be8b92780_add_shard_column_to_query.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test52": {
+                "dependency": "sqlalchemy",
+                "version": "1.2.15",
+                "file_path": "doorman/master/migrations/script.py.mako",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2019-7164",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

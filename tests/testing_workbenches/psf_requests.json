@@ -1,0 +1,1744 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "certifi",
+                "version": "2022.12.7",
+                "file_path": "requests/main/src/requests/certs.py",
+                "dep_artifacts": {
+                    "where": [
+                        14,
+                        17
+                    ]
+                },
+                "vulnerability": "CVE-2023-37920",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test2": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/__init__.py",
+                "dep_artifacts": {
+                    "SNIMissingWarning": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2018-20060",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/test_requests.py",
+                "dep_artifacts": {
+                    "Timeout": [
+                        15,
+                        2459,
+                        2473,
+                        2483,
+                        2494
+                    ],
+                    "poolmanager": [
+                        91
+                    ],
+                    "exceptions.ProtocolError,": [
+                        1462
+                    ],
+                    "exceptions.DecodeError,": [
+                        1463
+                    ],
+                    "exceptions.ReadTimeoutError,": [
+                        1464
+                    ],
+                    "exceptions.SSLError,": [
+                        1465
+                    ],
+                    "Retry": [
+                        2644,
+                        2647
+                    ]
+                },
+                "vulnerability": "CVE-2018-20060",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test4": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/__init__.py",
+                "dep_artifacts": {
+                    "__version__,": [
+                        106,
+                        112
+                    ],
+                    "pyopenssl": [
+                        127,
+                        129
+                    ],
+                    "DependencyWarning": [
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2018-20060",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test5": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/utils.py",
+                "dep_artifacts": {
+                    "make_headers": [
+                        22,
+                        69
+                    ],
+                    " parse_url": [
+                        22,
+                        993
+                    ]
+                },
+                "vulnerability": "CVE-2018-20060",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test6": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/models.py",
+                "dep_artifacts": {
+                    "RequestField": [
+                        23,
+                        197
+                    ],
+                    "encode_multipart_formdata": [
+                        24,
+                        201
+                    ],
+                    "parse_url": [
+                        25,
+                        433
+                    ]
+                },
+                "vulnerability": "CVE-2018-20060",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test7": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/adapters.py",
+                "dep_artifacts": {
+                    "ClosedPoolError": [
+                        13
+                    ],
+                    " ConnectTimeoutError": [
+                        13
+                    ],
+                    "HTTPError": [
+                        14
+                    ],
+                    "InvalidHeader": [
+                        15,
+                        592
+                    ],
+                    "ProxyError": [
+                        22,
+                        571,
+                        583
+                    ],
+                    "ReadTimeoutError": [
+                        23
+                    ],
+                    " ResponseError": [
+                        23
+                    ],
+                    "SSLError": [
+                        24,
+                        575,
+                        588
+                    ],
+                    "PoolManager": [
+                        25,
+                        203,
+                        219
+                    ],
+                    " proxy_from_url": [
+                        25,
+                        253
+                    ],
+                    "Timeout": [
+                        26,
+                        565,
+                        590
+                    ],
+                    "parse_url": [
+                        27,
+                        368,
+                        399
+                    ],
+                    "Retry": [
+                        28,
+                        170,
+                        172
+                    ],
+                    "SOCKSProxyManager": [
+                        58,
+                        61,
+                        242
+                    ],
+                    "ProxyManager": [
+                        236
+                    ],
+                    "ConnectionPool": [
+                        393
+                    ]
+                },
+                "vulnerability": "CVE-2018-20060",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test8": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/exceptions.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        7,
+                        55
+                    ]
+                },
+                "vulnerability": "CVE-2018-20060",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test9": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/help.py",
+                "dep_artifacts": {
+                    "pyopenssl": [
+                        24
+                    ],
+                    "__version__}": [
+                        83
+                    ]
+                },
+                "vulnerability": "CVE-2018-20060",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test10": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/__init__.py",
+                "dep_artifacts": {
+                    "SNIMissingWarning": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2019-11236",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test11": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/test_requests.py",
+                "dep_artifacts": {
+                    "Timeout": [
+                        15,
+                        2459,
+                        2473,
+                        2483,
+                        2494
+                    ],
+                    "poolmanager": [
+                        91
+                    ],
+                    "exceptions.ProtocolError,": [
+                        1462
+                    ],
+                    "exceptions.DecodeError,": [
+                        1463
+                    ],
+                    "exceptions.ReadTimeoutError,": [
+                        1464
+                    ],
+                    "exceptions.SSLError,": [
+                        1465
+                    ],
+                    "Retry": [
+                        2644,
+                        2647
+                    ]
+                },
+                "vulnerability": "CVE-2019-11236",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test12": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/__init__.py",
+                "dep_artifacts": {
+                    "__version__,": [
+                        106,
+                        112
+                    ],
+                    "pyopenssl": [
+                        127,
+                        129
+                    ],
+                    "DependencyWarning": [
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2019-11236",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test13": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/utils.py",
+                "dep_artifacts": {
+                    "make_headers": [
+                        22,
+                        69
+                    ],
+                    " parse_url": [
+                        22,
+                        993
+                    ]
+                },
+                "vulnerability": "CVE-2019-11236",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test14": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/models.py",
+                "dep_artifacts": {
+                    "RequestField": [
+                        23,
+                        197
+                    ],
+                    "encode_multipart_formdata": [
+                        24,
+                        201
+                    ],
+                    "parse_url": [
+                        25,
+                        433
+                    ]
+                },
+                "vulnerability": "CVE-2019-11236",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test15": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/adapters.py",
+                "dep_artifacts": {
+                    "ClosedPoolError": [
+                        13
+                    ],
+                    " ConnectTimeoutError": [
+                        13
+                    ],
+                    "HTTPError": [
+                        14
+                    ],
+                    "InvalidHeader": [
+                        15,
+                        592
+                    ],
+                    "ProxyError": [
+                        22,
+                        571,
+                        583
+                    ],
+                    "ReadTimeoutError": [
+                        23
+                    ],
+                    " ResponseError": [
+                        23
+                    ],
+                    "SSLError": [
+                        24,
+                        575,
+                        588
+                    ],
+                    "PoolManager": [
+                        25,
+                        203,
+                        219
+                    ],
+                    " proxy_from_url": [
+                        25,
+                        253
+                    ],
+                    "Timeout": [
+                        26,
+                        565,
+                        590
+                    ],
+                    "parse_url": [
+                        27,
+                        368,
+                        399
+                    ],
+                    "Retry": [
+                        28,
+                        170,
+                        172
+                    ],
+                    "SOCKSProxyManager": [
+                        58,
+                        61,
+                        242
+                    ],
+                    "ProxyManager": [
+                        236
+                    ],
+                    "ConnectionPool": [
+                        393
+                    ]
+                },
+                "vulnerability": "CVE-2019-11236",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test16": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/exceptions.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        7,
+                        55
+                    ]
+                },
+                "vulnerability": "CVE-2019-11236",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test17": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/help.py",
+                "dep_artifacts": {
+                    "pyopenssl": [
+                        24
+                    ],
+                    "__version__}": [
+                        83
+                    ]
+                },
+                "vulnerability": "CVE-2019-11236",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test18": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/__init__.py",
+                "dep_artifacts": {
+                    "SNIMissingWarning": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2019-11324",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test19": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/test_requests.py",
+                "dep_artifacts": {
+                    "Timeout": [
+                        15,
+                        2459,
+                        2473,
+                        2483,
+                        2494
+                    ],
+                    "poolmanager": [
+                        91
+                    ],
+                    "exceptions.ProtocolError,": [
+                        1462
+                    ],
+                    "exceptions.DecodeError,": [
+                        1463
+                    ],
+                    "exceptions.ReadTimeoutError,": [
+                        1464
+                    ],
+                    "exceptions.SSLError,": [
+                        1465
+                    ],
+                    "Retry": [
+                        2644,
+                        2647
+                    ]
+                },
+                "vulnerability": "CVE-2019-11324",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test20": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/__init__.py",
+                "dep_artifacts": {
+                    "__version__,": [
+                        106,
+                        112
+                    ],
+                    "pyopenssl": [
+                        127,
+                        129
+                    ],
+                    "DependencyWarning": [
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2019-11324",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test21": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/utils.py",
+                "dep_artifacts": {
+                    "make_headers": [
+                        22,
+                        69
+                    ],
+                    " parse_url": [
+                        22,
+                        993
+                    ]
+                },
+                "vulnerability": "CVE-2019-11324",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test22": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/models.py",
+                "dep_artifacts": {
+                    "RequestField": [
+                        23,
+                        197
+                    ],
+                    "encode_multipart_formdata": [
+                        24,
+                        201
+                    ],
+                    "parse_url": [
+                        25,
+                        433
+                    ]
+                },
+                "vulnerability": "CVE-2019-11324",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test23": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/adapters.py",
+                "dep_artifacts": {
+                    "ClosedPoolError": [
+                        13
+                    ],
+                    " ConnectTimeoutError": [
+                        13
+                    ],
+                    "HTTPError": [
+                        14
+                    ],
+                    "InvalidHeader": [
+                        15,
+                        592
+                    ],
+                    "ProxyError": [
+                        22,
+                        571,
+                        583
+                    ],
+                    "ReadTimeoutError": [
+                        23
+                    ],
+                    " ResponseError": [
+                        23
+                    ],
+                    "SSLError": [
+                        24,
+                        575,
+                        588
+                    ],
+                    "PoolManager": [
+                        25,
+                        203,
+                        219
+                    ],
+                    " proxy_from_url": [
+                        25,
+                        253
+                    ],
+                    "Timeout": [
+                        26,
+                        565,
+                        590
+                    ],
+                    "parse_url": [
+                        27,
+                        368,
+                        399
+                    ],
+                    "Retry": [
+                        28,
+                        170,
+                        172
+                    ],
+                    "SOCKSProxyManager": [
+                        58,
+                        61,
+                        242
+                    ],
+                    "ProxyManager": [
+                        236
+                    ],
+                    "ConnectionPool": [
+                        393
+                    ]
+                },
+                "vulnerability": "CVE-2019-11324",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test24": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/exceptions.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        7,
+                        55
+                    ]
+                },
+                "vulnerability": "CVE-2019-11324",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test25": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/help.py",
+                "dep_artifacts": {
+                    "pyopenssl": [
+                        24
+                    ],
+                    "__version__}": [
+                        83
+                    ]
+                },
+                "vulnerability": "CVE-2019-11324",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test26": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/__init__.py",
+                "dep_artifacts": {
+                    "SNIMissingWarning": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2020-26137",
+                "vuln_impact": 2.5,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test27": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/test_requests.py",
+                "dep_artifacts": {
+                    "Timeout": [
+                        15,
+                        2459,
+                        2473,
+                        2483,
+                        2494
+                    ],
+                    "poolmanager": [
+                        91
+                    ],
+                    "exceptions.ProtocolError,": [
+                        1462
+                    ],
+                    "exceptions.DecodeError,": [
+                        1463
+                    ],
+                    "exceptions.ReadTimeoutError,": [
+                        1464
+                    ],
+                    "exceptions.SSLError,": [
+                        1465
+                    ],
+                    "Retry": [
+                        2644,
+                        2647
+                    ]
+                },
+                "vulnerability": "CVE-2020-26137",
+                "vuln_impact": 2.5,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test28": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/__init__.py",
+                "dep_artifacts": {
+                    "__version__,": [
+                        106,
+                        112
+                    ],
+                    "pyopenssl": [
+                        127,
+                        129
+                    ],
+                    "DependencyWarning": [
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2020-26137",
+                "vuln_impact": 2.5,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test29": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/utils.py",
+                "dep_artifacts": {
+                    "make_headers": [
+                        22,
+                        69
+                    ],
+                    " parse_url": [
+                        22,
+                        993
+                    ]
+                },
+                "vulnerability": "CVE-2020-26137",
+                "vuln_impact": 2.5,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test30": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/models.py",
+                "dep_artifacts": {
+                    "RequestField": [
+                        23,
+                        197
+                    ],
+                    "encode_multipart_formdata": [
+                        24,
+                        201
+                    ],
+                    "parse_url": [
+                        25,
+                        433
+                    ]
+                },
+                "vulnerability": "CVE-2020-26137",
+                "vuln_impact": 2.5,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test31": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/adapters.py",
+                "dep_artifacts": {
+                    "ClosedPoolError": [
+                        13
+                    ],
+                    " ConnectTimeoutError": [
+                        13
+                    ],
+                    "HTTPError": [
+                        14
+                    ],
+                    "InvalidHeader": [
+                        15,
+                        592
+                    ],
+                    "ProxyError": [
+                        22,
+                        571,
+                        583
+                    ],
+                    "ReadTimeoutError": [
+                        23
+                    ],
+                    " ResponseError": [
+                        23
+                    ],
+                    "SSLError": [
+                        24,
+                        575,
+                        588
+                    ],
+                    "PoolManager": [
+                        25,
+                        203,
+                        219
+                    ],
+                    " proxy_from_url": [
+                        25,
+                        253
+                    ],
+                    "Timeout": [
+                        26,
+                        565,
+                        590
+                    ],
+                    "parse_url": [
+                        27,
+                        368,
+                        399
+                    ],
+                    "Retry": [
+                        28,
+                        170,
+                        172
+                    ],
+                    "SOCKSProxyManager": [
+                        58,
+                        61,
+                        242
+                    ],
+                    "ProxyManager": [
+                        236
+                    ],
+                    "ConnectionPool": [
+                        393
+                    ]
+                },
+                "vulnerability": "CVE-2020-26137",
+                "vuln_impact": 2.5,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test32": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/exceptions.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        7,
+                        55
+                    ]
+                },
+                "vulnerability": "CVE-2020-26137",
+                "vuln_impact": 2.5,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test33": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/help.py",
+                "dep_artifacts": {
+                    "pyopenssl": [
+                        24
+                    ],
+                    "__version__}": [
+                        83
+                    ]
+                },
+                "vulnerability": "CVE-2020-26137",
+                "vuln_impact": 2.5,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test34": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/__init__.py",
+                "dep_artifacts": {
+                    "SNIMissingWarning": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test35": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/test_requests.py",
+                "dep_artifacts": {
+                    "Timeout": [
+                        15,
+                        2459,
+                        2473,
+                        2483,
+                        2494
+                    ],
+                    "poolmanager": [
+                        91
+                    ],
+                    "exceptions.ProtocolError,": [
+                        1462
+                    ],
+                    "exceptions.DecodeError,": [
+                        1463
+                    ],
+                    "exceptions.ReadTimeoutError,": [
+                        1464
+                    ],
+                    "exceptions.SSLError,": [
+                        1465
+                    ],
+                    "Retry": [
+                        2644,
+                        2647
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test36": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/__init__.py",
+                "dep_artifacts": {
+                    "__version__,": [
+                        106,
+                        112
+                    ],
+                    "pyopenssl": [
+                        127,
+                        129
+                    ],
+                    "DependencyWarning": [
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test37": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/utils.py",
+                "dep_artifacts": {
+                    "make_headers": [
+                        22,
+                        69
+                    ],
+                    " parse_url": [
+                        22,
+                        993
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test38": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/models.py",
+                "dep_artifacts": {
+                    "RequestField": [
+                        23,
+                        197
+                    ],
+                    "encode_multipart_formdata": [
+                        24,
+                        201
+                    ],
+                    "parse_url": [
+                        25,
+                        433
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test39": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/adapters.py",
+                "dep_artifacts": {
+                    "ClosedPoolError": [
+                        13
+                    ],
+                    " ConnectTimeoutError": [
+                        13
+                    ],
+                    "HTTPError": [
+                        14
+                    ],
+                    "InvalidHeader": [
+                        15,
+                        592
+                    ],
+                    "ProxyError": [
+                        22,
+                        571,
+                        583
+                    ],
+                    "ReadTimeoutError": [
+                        23
+                    ],
+                    " ResponseError": [
+                        23
+                    ],
+                    "SSLError": [
+                        24,
+                        575,
+                        588
+                    ],
+                    "PoolManager": [
+                        25,
+                        203,
+                        219
+                    ],
+                    " proxy_from_url": [
+                        25,
+                        253
+                    ],
+                    "Timeout": [
+                        26,
+                        565,
+                        590
+                    ],
+                    "parse_url": [
+                        27,
+                        368,
+                        399
+                    ],
+                    "Retry": [
+                        28,
+                        170,
+                        172
+                    ],
+                    "SOCKSProxyManager": [
+                        58,
+                        61,
+                        242
+                    ],
+                    "ProxyManager": [
+                        236
+                    ],
+                    "ConnectionPool": [
+                        393
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test40": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/exceptions.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        7,
+                        55
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test41": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/help.py",
+                "dep_artifacts": {
+                    "pyopenssl": [
+                        24
+                    ],
+                    "__version__}": [
+                        83
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test42": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/__init__.py",
+                "dep_artifacts": {
+                    "SNIMissingWarning": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2018-25091",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test43": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/test_requests.py",
+                "dep_artifacts": {
+                    "Timeout": [
+                        15,
+                        2459,
+                        2473,
+                        2483,
+                        2494
+                    ],
+                    "poolmanager": [
+                        91
+                    ],
+                    "exceptions.ProtocolError,": [
+                        1462
+                    ],
+                    "exceptions.DecodeError,": [
+                        1463
+                    ],
+                    "exceptions.ReadTimeoutError,": [
+                        1464
+                    ],
+                    "exceptions.SSLError,": [
+                        1465
+                    ],
+                    "Retry": [
+                        2644,
+                        2647
+                    ]
+                },
+                "vulnerability": "CVE-2018-25091",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test44": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/__init__.py",
+                "dep_artifacts": {
+                    "__version__,": [
+                        106,
+                        112
+                    ],
+                    "pyopenssl": [
+                        127,
+                        129
+                    ],
+                    "DependencyWarning": [
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2018-25091",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test45": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/utils.py",
+                "dep_artifacts": {
+                    "make_headers": [
+                        22,
+                        69
+                    ],
+                    " parse_url": [
+                        22,
+                        993
+                    ]
+                },
+                "vulnerability": "CVE-2018-25091",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test46": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/models.py",
+                "dep_artifacts": {
+                    "RequestField": [
+                        23,
+                        197
+                    ],
+                    "encode_multipart_formdata": [
+                        24,
+                        201
+                    ],
+                    "parse_url": [
+                        25,
+                        433
+                    ]
+                },
+                "vulnerability": "CVE-2018-25091",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test47": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/adapters.py",
+                "dep_artifacts": {
+                    "ClosedPoolError": [
+                        13
+                    ],
+                    " ConnectTimeoutError": [
+                        13
+                    ],
+                    "HTTPError": [
+                        14
+                    ],
+                    "InvalidHeader": [
+                        15,
+                        592
+                    ],
+                    "ProxyError": [
+                        22,
+                        571,
+                        583
+                    ],
+                    "ReadTimeoutError": [
+                        23
+                    ],
+                    " ResponseError": [
+                        23
+                    ],
+                    "SSLError": [
+                        24,
+                        575,
+                        588
+                    ],
+                    "PoolManager": [
+                        25,
+                        203,
+                        219
+                    ],
+                    " proxy_from_url": [
+                        25,
+                        253
+                    ],
+                    "Timeout": [
+                        26,
+                        565,
+                        590
+                    ],
+                    "parse_url": [
+                        27,
+                        368,
+                        399
+                    ],
+                    "Retry": [
+                        28,
+                        170,
+                        172
+                    ],
+                    "SOCKSProxyManager": [
+                        58,
+                        61,
+                        242
+                    ],
+                    "ProxyManager": [
+                        236
+                    ],
+                    "ConnectionPool": [
+                        393
+                    ]
+                },
+                "vulnerability": "CVE-2018-25091",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test48": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/exceptions.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        7,
+                        55
+                    ]
+                },
+                "vulnerability": "CVE-2018-25091",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test49": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/help.py",
+                "dep_artifacts": {
+                    "pyopenssl": [
+                        24
+                    ],
+                    "__version__}": [
+                        83
+                    ]
+                },
+                "vulnerability": "CVE-2018-25091",
+                "vuln_impact": 2.7,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test50": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/__init__.py",
+                "dep_artifacts": {
+                    "SNIMissingWarning": [
+                        6
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test51": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/tests/test_requests.py",
+                "dep_artifacts": {
+                    "Timeout": [
+                        15,
+                        2459,
+                        2473,
+                        2483,
+                        2494
+                    ],
+                    "poolmanager": [
+                        91
+                    ],
+                    "exceptions.ProtocolError,": [
+                        1462
+                    ],
+                    "exceptions.DecodeError,": [
+                        1463
+                    ],
+                    "exceptions.ReadTimeoutError,": [
+                        1464
+                    ],
+                    "exceptions.SSLError,": [
+                        1465
+                    ],
+                    "Retry": [
+                        2644,
+                        2647
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test52": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/__init__.py",
+                "dep_artifacts": {
+                    "__version__,": [
+                        106,
+                        112
+                    ],
+                    "pyopenssl": [
+                        127,
+                        129
+                    ],
+                    "DependencyWarning": [
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test53": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/utils.py",
+                "dep_artifacts": {
+                    "make_headers": [
+                        22,
+                        69
+                    ],
+                    " parse_url": [
+                        22,
+                        993
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test54": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/models.py",
+                "dep_artifacts": {
+                    "RequestField": [
+                        23,
+                        197
+                    ],
+                    "encode_multipart_formdata": [
+                        24,
+                        201
+                    ],
+                    "parse_url": [
+                        25,
+                        433
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test55": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/adapters.py",
+                "dep_artifacts": {
+                    "ClosedPoolError": [
+                        13
+                    ],
+                    " ConnectTimeoutError": [
+                        13
+                    ],
+                    "HTTPError": [
+                        14
+                    ],
+                    "InvalidHeader": [
+                        15,
+                        592
+                    ],
+                    "ProxyError": [
+                        22,
+                        571,
+                        583
+                    ],
+                    "ReadTimeoutError": [
+                        23
+                    ],
+                    " ResponseError": [
+                        23
+                    ],
+                    "SSLError": [
+                        24,
+                        575,
+                        588
+                    ],
+                    "PoolManager": [
+                        25,
+                        203,
+                        219
+                    ],
+                    " proxy_from_url": [
+                        25,
+                        253
+                    ],
+                    "Timeout": [
+                        26,
+                        565,
+                        590
+                    ],
+                    "parse_url": [
+                        27,
+                        368,
+                        399
+                    ],
+                    "Retry": [
+                        28,
+                        170,
+                        172
+                    ],
+                    "SOCKSProxyManager": [
+                        58,
+                        61,
+                        242
+                    ],
+                    "ProxyManager": [
+                        236
+                    ],
+                    "ConnectionPool": [
+                        393
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test56": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/exceptions.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        7,
+                        55
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test57": {
+                "dependency": "urllib3",
+                "version": "1.21.1",
+                "file_path": "requests/main/src/requests/help.py",
+                "dep_artifacts": {
+                    "pyopenssl": [
+                        24
+                    ],
+                    "__version__}": [
+                        83
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

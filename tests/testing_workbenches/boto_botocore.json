@@ -1,0 +1,697 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/unit/test_awsrequest.py",
+                "dep_artifacts": {
+                    "HTTPConnectionPool": [
+                        22,
+                        618,
+                        620
+                    ],
+                    " HTTPSConnectionPool": [
+                        22,
+                        622
+                    ],
+                    "util.wait_for_read'": [
+                        377,
+                        394,
+                        422,
+                        448,
+                        468,
+                        575
+                    ],
+                    "connection.HTTPConnection._tunnel'": [
+                        552
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test2": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/unit/test_response.py",
+                "dep_artifacts": {
+                    "ProtocolError": [
+                        17,
+                        209
+                    ],
+                    "ReadTimeoutError": [
+                        18,
+                        197
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/unit/test_http_session.py",
+                "dep_artifacts": {
+                    "NewConnectionError": [
+                        4,
+                        456
+                    ],
+                    " ProtocolError": [
+                        4,
+                        461
+                    ],
+                    " ProxyError": [
+                        4,
+                        466
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test4": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/integration/test_s3.py",
+                "dep_artifacts": {
+                    "PoolManager": [
+                        52,
+                        58
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test5": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/functional/test_s3.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test6": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/functional/test_utils.py",
+                "dep_artifacts": {
+                    "LocationParseError": [
+                        17,
+                        72
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test7": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/response.py",
+                "dep_artifacts": {
+                    "ProtocolError": [
+                        18
+                    ],
+                    "ReadTimeoutError": [
+                        19,
+                        102
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test8": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/vendored/requests/packages/__init__.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test9": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/utils.py",
+                "dep_artifacts": {
+                    "LocationParseError": [
+                        35
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test10": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/exceptions.py",
+                "dep_artifacts": {
+                    "exceptions.ReadTimeoutError,": [
+                        143
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test11": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/compat.py",
+                "dep_artifacts": {
+                    "exceptions": [
+                        32,
+                        103
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test12": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/httpsession.py",
+                "dep_artifacts": {
+                    "PoolManager": [
+                        9,
+                        323
+                    ],
+                    " Timeout": [
+                        9,
+                        308
+                    ],
+                    " proxy_from_url": [
+                        9,
+                        361
+                    ],
+                    "ReadTimeoutError": [
+                        19,
+                        501
+                    ],
+                    "SSLError": [
+                        20,
+                        491
+                    ],
+                    "Retry": [
+                        21,
+                        469
+                    ],
+                    "parse_url": [
+                        30,
+                        393
+                    ],
+                    "OP_NO_TICKET": [
+                        33
+                    ],
+                    " PROTOCOL_TLS_CLIENT": [
+                        33
+                    ],
+                    "SSLContext": [
+                        49,
+                        114,
+                        164
+                    ],
+                    "DEFAULT_CIPHERS": [
+                        52
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test13": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/awsrequest.py",
+                "dep_artifacts": {
+                    "util": [
+                        18
+                    ],
+                    "HTTPConnection": [
+                        19,
+                        74,
+                        235
+                    ],
+                    " VerifiedHTTPSConnection": [
+                        19
+                    ],
+                    "HTTPConnectionPool": [
+                        20,
+                        243
+                    ],
+                    " HTTPSConnectionPool": [
+                        20
+                    ],
+                    "util.wait_for_read": [
+                        129
+                    ]
+                },
+                "vulnerability": "CVE-2023-43804",
+                "vuln_impact": 5.2,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test14": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/unit/test_awsrequest.py",
+                "dep_artifacts": {
+                    "HTTPConnectionPool": [
+                        22,
+                        618,
+                        620
+                    ],
+                    " HTTPSConnectionPool": [
+                        22,
+                        622
+                    ],
+                    "util.wait_for_read'": [
+                        377,
+                        394,
+                        422,
+                        448,
+                        468,
+                        575
+                    ],
+                    "connection.HTTPConnection._tunnel'": [
+                        552
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test15": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/unit/test_response.py",
+                "dep_artifacts": {
+                    "ProtocolError": [
+                        17,
+                        209
+                    ],
+                    "ReadTimeoutError": [
+                        18,
+                        197
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test16": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/unit/test_http_session.py",
+                "dep_artifacts": {
+                    "NewConnectionError": [
+                        4,
+                        456
+                    ],
+                    " ProtocolError": [
+                        4,
+                        461
+                    ],
+                    " ProxyError": [
+                        4,
+                        466
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test17": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/integration/test_s3.py",
+                "dep_artifacts": {
+                    "PoolManager": [
+                        52,
+                        58
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test18": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/functional/test_s3.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test19": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/tests/functional/test_utils.py",
+                "dep_artifacts": {
+                    "LocationParseError": [
+                        17,
+                        72
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test20": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/response.py",
+                "dep_artifacts": {
+                    "ProtocolError": [
+                        18
+                    ],
+                    "ReadTimeoutError": [
+                        19,
+                        102
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test21": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/vendored/requests/packages/__init__.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test22": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/utils.py",
+                "dep_artifacts": {
+                    "LocationParseError": [
+                        35
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test23": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/exceptions.py",
+                "dep_artifacts": {
+                    "exceptions.ReadTimeoutError,": [
+                        143
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test24": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/compat.py",
+                "dep_artifacts": {
+                    "exceptions": [
+                        32,
+                        103
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test25": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/httpsession.py",
+                "dep_artifacts": {
+                    "PoolManager": [
+                        9,
+                        323
+                    ],
+                    " Timeout": [
+                        9,
+                        308
+                    ],
+                    " proxy_from_url": [
+                        9,
+                        361
+                    ],
+                    "ReadTimeoutError": [
+                        19,
+                        501
+                    ],
+                    "SSLError": [
+                        20,
+                        491
+                    ],
+                    "Retry": [
+                        21,
+                        469
+                    ],
+                    "parse_url": [
+                        30,
+                        393
+                    ],
+                    "OP_NO_TICKET": [
+                        33
+                    ],
+                    " PROTOCOL_TLS_CLIENT": [
+                        33
+                    ],
+                    "SSLContext": [
+                        49,
+                        114,
+                        164
+                    ],
+                    "DEFAULT_CIPHERS": [
+                        52
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test26": {
+                "dependency": "urllib3",
+                "version": "1.26.5",
+                "file_path": "botocore/master/botocore/awsrequest.py",
+                "dep_artifacts": {
+                    "util": [
+                        18
+                    ],
+                    "HTTPConnection": [
+                        19,
+                        74,
+                        235
+                    ],
+                    " VerifiedHTTPSConnection": [
+                        19
+                    ],
+                    "HTTPConnectionPool": [
+                        20,
+                        243
+                    ],
+                    " HTTPSConnectionPool": [
+                        20
+                    ],
+                    "util.wait_for_read": [
+                        129
+                    ]
+                },
+                "vulnerability": "CVE-2023-45803",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test27": {
+                "dependency": "jmespath",
+                "version": "0.9.0",
+                "file_path": "botocore/master/tests/functional/test_paginator_config.py",
+                "dep_artifacts": {
+                    "JMESPathError": [
+                        17
+                    ],
+                    "compile": [
+                        277
+                    ]
+                },
+                "vulnerability": "CVE-2022-32511",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test28": {
+                "dependency": "jmespath",
+                "version": "0.9.0",
+                "file_path": "botocore/master/tests/functional/test_waiter_config.py",
+                "dep_artifacts": {
+                    "search": [
+                        179
+                    ]
+                },
+                "vulnerability": "CVE-2022-32511",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test29": {
+                "dependency": "jmespath",
+                "version": "0.9.0",
+                "file_path": "botocore/master/botocore/paginate.py",
+                "dep_artifacts": {
+                    "compile": [
+                        347,
+                        614,
+                        623,
+                        635,
+                        642
+                    ]
+                },
+                "vulnerability": "CVE-2022-32511",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test30": {
+                "dependency": "jmespath",
+                "version": "0.9.0",
+                "file_path": "botocore/master/botocore/waiter.py",
+                "dep_artifacts": {
+                    "compile": [
+                        229,
+                        240,
+                        261
+                    ]
+                },
+                "vulnerability": "CVE-2022-32511",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

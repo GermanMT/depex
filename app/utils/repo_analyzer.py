@@ -21,15 +21,15 @@ async def repo_analyzer(owner: str, name: str) -> dict[str, dict[str, dict | str
     repository_path = await download_repository(owner, name)
     requirement_file_names = await get_req_files_names(repository_path)
     for requirement_file_name in requirement_file_names:
-        if "pom.xml" in requirement_file_name:
-            requirement_files = await analyze_pom_xml(
-                requirement_files, repository_path, requirement_file_name
-            )
-        elif "package.json" in requirement_file_name:
-            requirement_files = await analyze_package_json(
-                requirement_files, repository_path, requirement_file_name
-            )
-        elif "pyproject.toml" in requirement_file_name:
+        # if "pom.xml" in requirement_file_name:
+        #     requirement_files = await analyze_pom_xml(
+        #         requirement_files, repository_path, requirement_file_name
+        #     )
+        # elif "package.json" in requirement_file_name:
+        #     requirement_files = await analyze_package_json(
+        #         requirement_files, repository_path, requirement_file_name
+        #     )
+        if "pyproject.toml" in requirement_file_name:
             requirement_files = await analyze_pyproject_toml(
                 requirement_files, repository_path, requirement_file_name
             )
@@ -45,7 +45,6 @@ async def repo_analyzer(owner: str, name: str) -> dict[str, dict[str, dict | str
             requirement_files = await analyze_requirements_txt(
                 requirement_files, repository_path, requirement_file_name
             )
-            print(requirement_files)
     system("rm -rf " + repository_path)
     return requirement_files
 

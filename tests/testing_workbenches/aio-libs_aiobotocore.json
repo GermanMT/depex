@@ -1,0 +1,598 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/mock_server.py",
+                "dep_artifacts": {
+                    "web": [
+                        6
+                    ],
+                    "StreamResponse": [
+                        8,
+                        70
+                    ],
+                    "web.Application": [
+                        38
+                    ],
+                    "web.run_app": [
+                        43
+                    ],
+                    "web.Response": [
+                        64
+                    ],
+                    "ClientSession": [
+                        80
+                    ],
+                    "ClientConnectionError,": [
+                        90
+                    ]
+                },
+                "vulnerability": "CVE-2018-1000519",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test2": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/moto_server.py",
+                "dep_artifacts": {
+                    "ClientSession": [
+                        119
+                    ],
+                    "ClientConnectionError": [
+                        135
+                    ]
+                },
+                "vulnerability": "CVE-2018-1000519",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/test_config.py",
+                "dep_artifacts": {
+                    "resolver": [
+                        3
+                    ],
+                    "resolver.DefaultResolver": [
+                        53
+                    ]
+                },
+                "vulnerability": "CVE-2018-1000519",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test4": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/conftest.py",
+                "dep_artifacts": {
+                    "ClientSession": [
+                        507
+                    ]
+                },
+                "vulnerability": "CVE-2018-1000519",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test5": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/response.py",
+                "dep_artifacts": {
+                    "client_exceptions": [
+                        4
+                    ],
+                    "StreamReader,": [
+                        32
+                    ],
+                    "client_exceptions.ClientConnectionError": [
+                        63
+                    ]
+                },
+                "vulnerability": "CVE-2018-1000519",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test6": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/config.py",
+                "dep_artifacts": {
+                    "AbstractResolver": [
+                        60
+                    ]
+                },
+                "vulnerability": "CVE-2018-1000519",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test7": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/httpsession.py",
+                "dep_artifacts": {
+                    "URL": [
+                        18,
+                        221
+                    ],
+                    "ClientSession]": [
+                        62
+                    ],
+                    "ClientTimeout": [
+                        72
+                    ],
+                    "TCPConnector": [
+                        167
+                    ],
+                    "ClientSession": [
+                        180
+                    ],
+                    "ClientPayloadError,": [
+                        252
+                    ],
+                    "http_exceptions.BadStatusLine,": [
+                        253
+                    ]
+                },
+                "vulnerability": "CVE-2018-1000519",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test8": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/_endpoint_helpers.py",
+                "dep_artifacts": {
+                    "http_exceptions": [
+                        3
+                    ],
+                    "ClientConnectionError,": [
+                        10
+                    ],
+                    "ClientPayloadError,": [
+                        11
+                    ],
+                    "ServerDisconnectedError,": [
+                        12
+                    ],
+                    "http_exceptions.HttpProcessingError,": [
+                        13
+                    ]
+                },
+                "vulnerability": "CVE-2018-1000519",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test9": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/mock_server.py",
+                "dep_artifacts": {
+                    "web": [
+                        6
+                    ],
+                    "StreamResponse": [
+                        8,
+                        70
+                    ],
+                    "web.Application": [
+                        38
+                    ],
+                    "web.run_app": [
+                        43
+                    ],
+                    "web.Response": [
+                        64
+                    ],
+                    "ClientSession": [
+                        80
+                    ],
+                    "ClientConnectionError,": [
+                        90
+                    ]
+                },
+                "vulnerability": "CVE-2024-23334",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test10": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/moto_server.py",
+                "dep_artifacts": {
+                    "ClientSession": [
+                        119
+                    ],
+                    "ClientConnectionError": [
+                        135
+                    ]
+                },
+                "vulnerability": "CVE-2024-23334",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test11": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/test_config.py",
+                "dep_artifacts": {
+                    "resolver": [
+                        3
+                    ],
+                    "resolver.DefaultResolver": [
+                        53
+                    ]
+                },
+                "vulnerability": "CVE-2024-23334",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test12": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/conftest.py",
+                "dep_artifacts": {
+                    "ClientSession": [
+                        507
+                    ]
+                },
+                "vulnerability": "CVE-2024-23334",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test13": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/response.py",
+                "dep_artifacts": {
+                    "client_exceptions": [
+                        4
+                    ],
+                    "StreamReader,": [
+                        32
+                    ],
+                    "client_exceptions.ClientConnectionError": [
+                        63
+                    ]
+                },
+                "vulnerability": "CVE-2024-23334",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test14": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/config.py",
+                "dep_artifacts": {
+                    "AbstractResolver": [
+                        60
+                    ]
+                },
+                "vulnerability": "CVE-2024-23334",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test15": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/httpsession.py",
+                "dep_artifacts": {
+                    "URL": [
+                        18,
+                        221
+                    ],
+                    "ClientSession]": [
+                        62
+                    ],
+                    "ClientTimeout": [
+                        72
+                    ],
+                    "TCPConnector": [
+                        167
+                    ],
+                    "ClientSession": [
+                        180
+                    ],
+                    "ClientPayloadError,": [
+                        252
+                    ],
+                    "http_exceptions.BadStatusLine,": [
+                        253
+                    ]
+                },
+                "vulnerability": "CVE-2024-23334",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test16": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/_endpoint_helpers.py",
+                "dep_artifacts": {
+                    "http_exceptions": [
+                        3
+                    ],
+                    "ClientConnectionError,": [
+                        10
+                    ],
+                    "ClientPayloadError,": [
+                        11
+                    ],
+                    "ServerDisconnectedError,": [
+                        12
+                    ],
+                    "http_exceptions.HttpProcessingError,": [
+                        13
+                    ]
+                },
+                "vulnerability": "CVE-2024-23334",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test17": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/mock_server.py",
+                "dep_artifacts": {
+                    "web": [
+                        6
+                    ],
+                    "StreamResponse": [
+                        8,
+                        70
+                    ],
+                    "web.Application": [
+                        38
+                    ],
+                    "web.run_app": [
+                        43
+                    ],
+                    "web.Response": [
+                        64
+                    ],
+                    "ClientSession": [
+                        80
+                    ],
+                    "ClientConnectionError,": [
+                        90
+                    ]
+                },
+                "vulnerability": "CVE-2024-23829",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test18": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/moto_server.py",
+                "dep_artifacts": {
+                    "ClientSession": [
+                        119
+                    ],
+                    "ClientConnectionError": [
+                        135
+                    ]
+                },
+                "vulnerability": "CVE-2024-23829",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test19": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/test_config.py",
+                "dep_artifacts": {
+                    "resolver": [
+                        3
+                    ],
+                    "resolver.DefaultResolver": [
+                        53
+                    ]
+                },
+                "vulnerability": "CVE-2024-23829",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test20": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/tests/conftest.py",
+                "dep_artifacts": {
+                    "ClientSession": [
+                        507
+                    ]
+                },
+                "vulnerability": "CVE-2024-23829",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test21": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/response.py",
+                "dep_artifacts": {
+                    "client_exceptions": [
+                        4
+                    ],
+                    "StreamReader,": [
+                        32
+                    ],
+                    "client_exceptions.ClientConnectionError": [
+                        63
+                    ]
+                },
+                "vulnerability": "CVE-2024-23829",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test22": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/config.py",
+                "dep_artifacts": {
+                    "AbstractResolver": [
+                        60
+                    ]
+                },
+                "vulnerability": "CVE-2024-23829",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test23": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/httpsession.py",
+                "dep_artifacts": {
+                    "URL": [
+                        18,
+                        221
+                    ],
+                    "ClientSession]": [
+                        62
+                    ],
+                    "ClientTimeout": [
+                        72
+                    ],
+                    "TCPConnector": [
+                        167
+                    ],
+                    "ClientSession": [
+                        180
+                    ],
+                    "ClientPayloadError,": [
+                        252
+                    ],
+                    "http_exceptions.BadStatusLine,": [
+                        253
+                    ]
+                },
+                "vulnerability": "CVE-2024-23829",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test24": {
+                "dependency": "aiohttp",
+                "version": "3.9.0",
+                "file_path": "aiobotocore/master/aiobotocore/_endpoint_helpers.py",
+                "dep_artifacts": {
+                    "http_exceptions": [
+                        3
+                    ],
+                    "ClientConnectionError,": [
+                        10
+                    ],
+                    "ClientPayloadError,": [
+                        11
+                    ],
+                    "ServerDisconnectedError,": [
+                        12
+                    ],
+                    "http_exceptions.HttpProcessingError,": [
+                        13
+                    ]
+                },
+                "vulnerability": "CVE-2024-23829",
+                "vuln_impact": 0.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

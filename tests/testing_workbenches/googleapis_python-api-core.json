@@ -1,0 +1,168 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "requests",
+                "version": "2.20.0",
+                "file_path": "python-api-core/main/tests/unit/test_exceptions.py",
+                "dep_artifacts": {
+                    "Response": [
+                        88
+                    ],
+                    "Request": [
+                        91
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test2": {
+                "dependency": "requests",
+                "version": "2.20.0",
+                "file_path": "python-api-core/main/tests/unit/test_rest_streaming.py",
+                "dep_artifacts": {
+                    "Response": [
+                        71
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "requests",
+                "version": "2.20.0",
+                "file_path": "python-api-core/main/tests/unit/operations_v1/test_operations_rest_client.py",
+                "dep_artifacts": {
+                    "Response": [
+                        25,
+                        452,
+                        457,
+                        484,
+                        506,
+                        514,
+                        518,
+                        522,
+                        531,
+                        563,
+                        587,
+                        606,
+                        625,
+                        642,
+                        661
+                    ],
+                    "Session": [
+                        26,
+                        806
+                    ],
+                    "AuthorizedSession.configure_mtls_channel\"": [
+                        806
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test4": {
+                "dependency": "requests",
+                "version": "2.20.0",
+                "file_path": "python-api-core/main/tests/unit/retry/test_retry_base.py",
+                "dep_artifacts": {
+                    "exceptions": [
+                        20
+                    ],
+                    "exceptions.ConnectionError": [
+                        46
+                    ],
+                    "exceptions.ChunkedEncodingError": [
+                        47
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test5": {
+                "dependency": "requests",
+                "version": "2.20.0",
+                "file_path": "python-api-core/main/google/api_core/operations_v1/transports/rest.py",
+                "dep_artifacts": {
+                    "__version__": [
+                        20
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test6": {
+                "dependency": "requests",
+                "version": "2.20.0",
+                "file_path": "python-api-core/main/google/api_core/retry/retry_base.py",
+                "dep_artifacts": {
+                    "exceptions": [
+                        30
+                    ],
+                    "exceptions.ConnectionError,": [
+                        79
+                    ],
+                    "exceptions.ChunkedEncodingError,": [
+                        80
+                    ],
+                    "exceptions.ConnectionError`": [
+                        91
+                    ],
+                    "exceptions.ChunkedEncodingError`": [
+                        92
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test7": {
+                "dependency": "requests",
+                "version": "2.20.0",
+                "file_path": "python-api-core/main/google/api_core/rest_streaming.py",
+                "dep_artifacts": {
+                    "Response": [
+                        31
+                    ],
+                    "Response,": [
+                        41
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

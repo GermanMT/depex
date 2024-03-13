@@ -1,0 +1,58 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "jmespath",
+                "version": "0.10.0",
+                "file_path": "boto3/master/boto3/resources/response.py",
+                "dep_artifacts": {
+                    "search": [
+                        58,
+                        60,
+                        155,
+                        228
+                    ]
+                },
+                "vulnerability": "CVE-2022-32511",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test2": {
+                "dependency": "jmespath",
+                "version": "0.10.0",
+                "file_path": "boto3/master/boto3/resources/params.py",
+                "dep_artifacts": {
+                    "search": [
+                        48
+                    ]
+                },
+                "vulnerability": "CVE-2022-32511",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "jmespath",
+                "version": "0.10.0",
+                "file_path": "boto3/master/boto3/docs/utils.py",
+                "dep_artifacts": {
+                    "compile": [
+                        26
+                    ]
+                },
+                "vulnerability": "CVE-2022-32511",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

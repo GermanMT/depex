@@ -1,0 +1,131 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "sqlparse",
+                "version": "0.3.1",
+                "file_path": "django/main/django/test/runner.py",
+                "dep_artifacts": {
+                    "format": [
+                        100
+                    ]
+                },
+                "vulnerability": "CVE-2023-30608",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test2": {
+                "dependency": "sqlparse",
+                "version": "0.3.1",
+                "file_path": "django/main/django/db/backends/mysql/introspection.py",
+                "dep_artifacts": {
+                    "parse": [
+                        234
+                    ],
+                    "tokens.Name": [
+                        238
+                    ]
+                },
+                "vulnerability": "CVE-2023-30608",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "sqlparse",
+                "version": "0.3.1",
+                "file_path": "django/main/django/db/backends/sqlite3/introspection.py",
+                "dep_artifacts": {
+                    "tokens.Punctuation,": [
+                        182,
+                        184,
+                        189,
+                        280,
+                        306
+                    ],
+                    "tokens.Keyword,": [
+                        195,
+                        207,
+                        227,
+                        230
+                    ],
+                    "tokens.Name,": [
+                        202,
+                        216,
+                        223,
+                        239
+                    ],
+                    "tokens.Keyword": [
+                        202,
+                        216,
+                        223,
+                        239
+                    ],
+                    "tokens.Literal.String.Symbol": [
+                        204,
+                        218,
+                        225,
+                        242
+                    ],
+                    "parse": [
+                        274,
+                        408,
+                        428
+                    ],
+                    "sql.Parenthesis": [
+                        410
+                    ]
+                },
+                "vulnerability": "CVE-2023-30608",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test4": {
+                "dependency": "sqlparse",
+                "version": "0.3.1",
+                "file_path": "django/main/django/db/backends/base/operations.py",
+                "dep_artifacts": {
+                    "format": [
+                        360
+                    ],
+                    "split": [
+                        361
+                    ]
+                },
+                "vulnerability": "CVE-2023-30608",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test5": {
+                "dependency": "sqlparse",
+                "version": "0.3.1",
+                "file_path": "django/main/tests/backends/sqlite/test_introspection.py",
+                "dep_artifacts": {
+                    "parse": [
+                        62
+                    ]
+                },
+                "vulnerability": "CVE-2023-30608",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

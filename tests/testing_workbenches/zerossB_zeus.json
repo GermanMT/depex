@@ -1,0 +1,110 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "jinja2",
+                "version": "2.10",
+                "file_path": "zeus/master/zeusproject/commands.py",
+                "dep_artifacts": {
+                    "FileSystemLoader": [
+                        125
+                    ],
+                    "Environment": [
+                        127
+                    ]
+                },
+                "vulnerability": "CVE-2019-8341",
+                "vuln_impact": 5.9,
+                "exploit": "https://www.exploit-db.com/exploits/46386",
+                "payload": "https://www.exploit-db.com/download/46386",
+                "automatable": true
+            }
+        },
+        {
+            "test2": {
+                "dependency": "py",
+                "version": "1.5.3",
+                "file_path": "zeus/master/tests/test_module.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2020-29651",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "py",
+                "version": "1.5.3",
+                "file_path": "zeus/master/zeusproject/templates/app/config.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2020-29651",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test4": {
+                "dependency": "py",
+                "version": "1.5.3",
+                "file_path": "zeus/master/zeusproject/commands.py",
+                "dep_artifacts": {
+                    "\"\"\"": [
+                        226
+                    ]
+                },
+                "vulnerability": "CVE-2020-29651",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test5": {
+                "dependency": "py",
+                "version": "1.5.3",
+                "file_path": "zeus/master/tests/test_module.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2022-42969",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test6": {
+                "dependency": "py",
+                "version": "1.5.3",
+                "file_path": "zeus/master/zeusproject/templates/app/config.py",
+                "dep_artifacts": {},
+                "vulnerability": "CVE-2022-42969",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test7": {
+                "dependency": "py",
+                "version": "1.5.3",
+                "file_path": "zeus/master/zeusproject/commands.py",
+                "dep_artifacts": {
+                    "\"\"\"": [
+                        226
+                    ]
+                },
+                "vulnerability": "CVE-2022-42969",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

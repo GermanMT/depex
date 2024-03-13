@@ -1,0 +1,436 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_input_format.py",
+                "dep_artifacts": {
+                    "Request": [
+                        62
+                    ]
+                },
+                "vulnerability": "CVE-2015-2296",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test2": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_use.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        113,
+                        116,
+                        136,
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2015-2296",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test3": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_full_request.py",
+                "dep_artifacts": {
+                    "post": [
+                        52
+                    ]
+                },
+                "vulnerability": "CVE-2015-2296",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test4": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_decorators.py",
+                "dep_artifacts": {
+                    "Request": [
+                        1733
+                    ]
+                },
+                "vulnerability": "CVE-2015-2296",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test5": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/examples/write_once.py",
+                "dep_artifacts": {
+                    "get": [
+                        11
+                    ]
+                },
+                "vulnerability": "CVE-2015-2296",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test6": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/examples/file_upload_example.py",
+                "dep_artifacts": {
+                    "post": [
+                        11
+                    ]
+                },
+                "vulnerability": "CVE-2015-2296",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test7": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/examples/post_body_example.py",
+                "dep_artifacts": {
+                    "post": [
+                        7
+                    ]
+                },
+                "vulnerability": "CVE-2015-2296",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test8": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/hug/use.py",
+                "dep_artifacts": {
+                    "Session": [
+                        113
+                    ],
+                    "HTTPError": [
+                        133,
+                        159,
+                        187
+                    ]
+                },
+                "vulnerability": "CVE-2015-2296",
+                "vuln_impact": 6.4,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test9": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_input_format.py",
+                "dep_artifacts": {
+                    "Request": [
+                        62
+                    ]
+                },
+                "vulnerability": "CVE-2018-18074",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test10": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_use.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        113,
+                        116,
+                        136,
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2018-18074",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test11": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_full_request.py",
+                "dep_artifacts": {
+                    "post": [
+                        52
+                    ]
+                },
+                "vulnerability": "CVE-2018-18074",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test12": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_decorators.py",
+                "dep_artifacts": {
+                    "Request": [
+                        1733
+                    ]
+                },
+                "vulnerability": "CVE-2018-18074",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test13": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/examples/write_once.py",
+                "dep_artifacts": {
+                    "get": [
+                        11
+                    ]
+                },
+                "vulnerability": "CVE-2018-18074",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test14": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/examples/file_upload_example.py",
+                "dep_artifacts": {
+                    "post": [
+                        11
+                    ]
+                },
+                "vulnerability": "CVE-2018-18074",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test15": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/examples/post_body_example.py",
+                "dep_artifacts": {
+                    "post": [
+                        7
+                    ]
+                },
+                "vulnerability": "CVE-2018-18074",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test16": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/hug/use.py",
+                "dep_artifacts": {
+                    "Session": [
+                        113
+                    ],
+                    "HTTPError": [
+                        133,
+                        159,
+                        187
+                    ]
+                },
+                "vulnerability": "CVE-2018-18074",
+                "vuln_impact": 3.6,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test17": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_input_format.py",
+                "dep_artifacts": {
+                    "Request": [
+                        62
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test18": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_use.py",
+                "dep_artifacts": {
+                    "HTTPError": [
+                        113,
+                        116,
+                        136,
+                        139
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test19": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_full_request.py",
+                "dep_artifacts": {
+                    "post": [
+                        52
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test20": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/tests/test_decorators.py",
+                "dep_artifacts": {
+                    "Request": [
+                        1733
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test21": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/examples/write_once.py",
+                "dep_artifacts": {
+                    "get": [
+                        11
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test22": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/examples/file_upload_example.py",
+                "dep_artifacts": {
+                    "post": [
+                        11
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test23": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/examples/post_body_example.py",
+                "dep_artifacts": {
+                    "post": [
+                        7
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        },
+        {
+            "test24": {
+                "dependency": "requests",
+                "version": "2.4.2",
+                "file_path": "hug/master/hug/use.py",
+                "dep_artifacts": {
+                    "Session": [
+                        113
+                    ],
+                    "HTTPError": [
+                        133,
+                        159,
+                        187
+                    ]
+                },
+                "vulnerability": "CVE-2023-32681",
+                "vuln_impact": 4.0,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}

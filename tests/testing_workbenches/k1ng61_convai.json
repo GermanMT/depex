@@ -1,0 +1,82 @@
+{
+    "tests": [
+        {
+            "test1": {
+                "dependency": "parlai",
+                "version": "1.0.0",
+                "file_path": "convai/main/intweb.py",
+                "dep_artifacts": {
+                    "setup_args": [
+                        4,
+                        211,
+                        264
+                    ],
+                    "create_agent": [
+                        5,
+                        242
+                    ],
+                    "create_task": [
+                        6,
+                        246
+                    ],
+                    "ParlaiScript": [
+                        8
+                    ],
+                    " register_script": [
+                        8
+                    ],
+                    "utils.logging": [
+                        9
+                    ],
+                    "agents.local_human.local_human": [
+                        239
+                    ]
+                },
+                "vulnerability": "CVE-2021-24040",
+                "vuln_impact": 5.9,
+                "exploit": "https://www.exploit-db.com/exploits/50289",
+                "payload": "https://www.exploit-db.com/download/50289",
+                "automatable": true
+            }
+        },
+        {
+            "test2": {
+                "dependency": "parlai",
+                "version": "1.0.0",
+                "file_path": "convai/main/intweb.py",
+                "dep_artifacts": {
+                    "setup_args": [
+                        4,
+                        211,
+                        264
+                    ],
+                    "create_agent": [
+                        5,
+                        242
+                    ],
+                    "create_task": [
+                        6,
+                        246
+                    ],
+                    "ParlaiScript": [
+                        8
+                    ],
+                    " register_script": [
+                        8
+                    ],
+                    "utils.logging": [
+                        9
+                    ],
+                    "agents.local_human.local_human": [
+                        239
+                    ]
+                },
+                "vulnerability": "CVE-2021-39207",
+                "vuln_impact": 5.9,
+                "exploit": null,
+                "payload": null,
+                "automatable": false
+            }
+        }
+    ]
+}
