@@ -1,0 +1,179 @@
+{
+  "tests": [
+    {
+      "test1": {
+        "dependency": "PyCrypto",
+        "version": "2.0.1",
+        "file_path": "test_report/main/files/pycrypto_test.py",
+        "dep_artifacts": {
+          "ARC2": [
+            13,
+            17,
+            18
+          ],
+          "Random": [
+            14,
+            17
+          ]
+        },
+        "vulnerability": "CVE-2012-2417",
+        "vuln_impact": 2.9,
+        "exploit": null,
+        "payload": null,
+        "automatable": false
+      }
+    },
+    {
+      "test2": {
+        "dependency": "PyCrypto",
+        "version": "2.0.1",
+        "file_path": "test_report/main/files/pycrypto_test.py",
+        "dep_artifacts": {
+          "ARC2": [
+            13,
+            17,
+            18
+          ],
+          "Random": [
+            14,
+            17
+          ]
+        },
+        "vulnerability": "CVE-2013-1445",
+        "vuln_impact": 2.9,
+        "exploit": null,
+        "payload": null,
+        "automatable": false
+      }
+    },
+    {
+      "test3": {
+        "dependency": "PyCrypto",
+        "version": "2.0.1",
+        "file_path": "test_report/main/files/pycrypto_test.py",
+        "dep_artifacts": {
+          "ARC2": [
+            13,
+            17,
+            18
+          ],
+          "Random": [
+            14,
+            17
+          ]
+        },
+        "vulnerability": "CVE-2013-7459",
+        "vuln_impact": 5.9,
+        "exploit": null,
+        "payload": null,
+        "automatable": false
+      }
+    },
+    {
+      "test4": {
+        "dependency": "PyCrypto",
+        "version": "2.0.1",
+        "file_path": "test_report/main/files/pycrypto_test.py",
+        "dep_artifacts": {
+          "ARC2": [
+            13,
+            17,
+            18
+          ],
+          "Random": [
+            14,
+            17
+          ]
+        },
+        "vulnerability": "CVE-2018-6594",
+        "vuln_impact": 3.6,
+        "exploit": null,
+        "payload": null,
+        "automatable": false
+      }
+    },
+    {
+      "test5": {
+        "dependency": "PyCrypto",
+        "version": "2.0.1",
+        "file_path": "test_report/main/files/pycrypto_test.py",
+        "dep_artifacts": {
+          "ARC2": [
+            13,
+            17,
+            18
+          ],
+          "Random": [
+            14,
+            17
+          ]
+        },
+        "vulnerability": "CVE-2009-0544",
+        "vuln_impact": 10,
+        "exploit": "https://www.exploit-db.com/exploits/32780",
+        "payload": "https://www.exploit-db.com/download/32780",
+        "automatable": true
+      }
+    },
+    {
+      "test6": {
+        "dependency": "paramiko",
+        "version": "2.4.0",
+        "file_path": "test_report/main/files/paramiko_test.py",
+        "dep_artifacts": {
+          "Transport": [
+            21
+          ],
+          "SFTPClient.from_transport": [
+            24
+          ]
+        },
+        "vulnerability": "CVE-2018-7750",
+        "vuln_impact": 5.9,
+        "exploit": "https://www.exploit-db.com/exploits/45712",
+        "payload": "https://www.exploit-db.com/download/45712",
+        "automatable": true
+      }
+    },
+    {
+      "test7": {
+        "dependency": "paramiko",
+        "version": "2.4.0",
+        "file_path": "test_report/main/files/paramiko_test.py",
+        "dep_artifacts": {
+          "Transport": [
+            21
+          ],
+          "SFTPClient.from_transport": [
+            24
+          ]
+        },
+        "vulnerability": "CVE-2022-24302",
+        "vuln_impact": 3.6,
+        "exploit": null,
+        "payload": null,
+        "automatable": false
+      }
+    },
+    {
+      "test8": {
+        "dependency": "paramiko",
+        "version": "2.4.0",
+        "file_path": "test_report/main/files/paramiko_test.py",
+        "dep_artifacts": {
+          "Transport": [
+            21
+          ],
+          "SFTPClient.from_transport": [
+            24
+          ]
+        },
+        "vulnerability": "CVE-2023-48795",
+        "vuln_impact": 3.6,
+        "exploit": null,
+        "payload": null,
+        "automatable": false
+      }
+    }
+  ]
+}
