@@ -1,7 +1,7 @@
 from requests import post
 
 record_file = open("recorded_packages.txt", "w")
-with open("all_pypi_packages/all_pypi_packages_1.txt", "r") as file:
+with open("all_pypi_packages/all_pypi_packages_2.txt", "r") as file:
     text = file.read()
     packages = text.split("\n")
 
