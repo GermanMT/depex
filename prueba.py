@@ -1,4 +1,3 @@
-from time import sleep
-
-
-sleep(30)
+for i in range(501, 1001):
+    print(i)
+    exit()
