@@ -1,3 +1,2 @@
-for i in range(501, 1001):
+for i in range(3000, 4001):
     print(i)
-    exit()
