@@ -1,7 +1,7 @@
 from requests import post
 
 final_file = 5885
-for i in range(3000, 4001):
+for i in range(4001, 5886):
     record_file = open("recorded_packages.txt", "w")
     with open(f"all_pypi_packages/all_pypi_packages_{i}.txt", "r") as file:
         text = file.read()
