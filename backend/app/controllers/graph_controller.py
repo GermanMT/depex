@@ -66,7 +66,8 @@ async def init_pypi_package(package_name: str) -> JSONResponse:
         content=json_encoder({"message": "Initializing graph"}),
     )
 
-#  dependencies=[Depends(JWTBearer())], tags=["graph"]
+
+# dependencies=[Depends(JWTBearer())], tags=["graph"]
 @router.post("/graph/npm/package/init")
 async def init_npm_package(package_name: str) -> JSONResponse:
     package = await read_package_by_name(package_name, "NPM")
