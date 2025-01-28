@@ -1,18 +1,18 @@
 services:
-  frontend:
-    container_name: depex_frontend
-    build:
-      context: .
-      dockerfile: ./frontend/Dockerfile
-    volumes:
-      - ./frontend:/frontend
-    depends_on:
-      backend:
-        condition: service_healthy
-    ports:
-      - '3000:3000'
-    networks:
-      - depex
+  # frontend:
+  #   container_name: depex_frontend
+  #   build:
+  #     context: .
+  #     dockerfile: ./frontend/Dockerfile
+  #   volumes:
+  #     - ./frontend:/frontend
+  #   depends_on:
+  #     backend:
+  #       condition: service_healthy
+  #   ports:
+  #     - '3000:3000'
+  #   networks:
+  #     - depex
 
   backend:
     container_name: depex_backend
@@ -31,10 +31,10 @@ services:
       - '8000:8000'
     networks:
       - depex
-    healthcheck:
-      test: curl --fail http://localhost:8000/health || exit 1
-      interval: 10s
-      start_period: 20s
+    # healthcheck:
+    #   test: curl --fail http://localhost:8000/health || exit 1
+    #   interval: 10s
+    #   start_period: 20s
 
   graph_database:
     env_file: .env
@@ -42,7 +42,7 @@ services:
     image: neo4j:5.20.0
     environment:
       - EXTENSION_SCRIPT=/seeds/graphdb_seeder.sh
-      - NEO4J_AUTH=${GRAPH_DB_USER}/${GRAPH_DB_PASSWORD_PIP}
+      - NEO4J_AUTH=${GRAPH_DB_USER}/${GRAPH_DB_PASSWORD}
       - NEO4J_PLUGINS=["apoc"]
       - NEO4J_server_http_listen__address=:7474
       - NEO4J_server_http_advertised__address=:7474
@@ -53,7 +53,7 @@ services:
       - '7474:7474'
       - '7687:7687'
     volumes:
-      - ./seeds/graphs/pypi_neo4j.dump:/backups/neo4j.dump
+      - ./seeds/graphs/neo4j.dump:/backups/neo4j.dump
       - ./seeds/graphdb_seeder.sh:/seeds/graphdb_seeder.sh
     networks:
       - depex
@@ -63,54 +63,6 @@ services:
       timeout: 10s
       retries: 5
       start_period: 3s
-
-  # npm_graph_database:
-  #   env_file: .env
-  #   container_name: npm_neo4j
-  #   image: neo4j:5.20.0
-  #   environment:
-  #     - NEO4J_AUTH=${GRAPH_DB_USER}/${GRAPH_DB_PASSWORD_NPM}
-  #     - NEO4J_PLUGINS=["apoc"]
-  #     - NEO4J_server_http_listen__address=:7473
-  #     - NEO4J_server_http_advertised__address=:7473
-  #     - NEO4J_server_bolt_listen__address=:7686
-  #     - NEO4J_server_bolt_advertised__address=:7686
-  #     - NEO4J_apoc_export_file_enabled=true
-  #   ports:
-  #     - '7473:7473'
-  #     - '7686:7686'
-  #   networks:
-  #     - depex
-  #   healthcheck:
-  #     test: wget http://localhost:7473 || exit 1
-  #     interval: 10s
-  #     timeout: 10s
-  #     retries: 5
-  #     start_period: 3s
-
-  # mvn_graph_database:
-  #   env_file: .env
-  #   container_name: mvn_neo4j
-  #   image: neo4j:5.20.0
-  #   environment:
-  #     - NEO4J_AUTH=${GRAPH_DB_USER}/${GRAPH_DB_PASSWORD_MVN}
-  #     - NEO4J_PLUGINS=["apoc"]
-  #     - NEO4J_server_http_listen__address=:7472
-  #     - NEO4J_server_http_advertised__address=:7472
-  #     - NEO4J_server_bolt_listen__address=:7685
-  #     - NEO4J_server_bolt_advertised__address=:7685
-  #     - NEO4J_apoc_export_file_enabled=true
-  #   ports:
-  #     - '7472:7472'
-  #     - '7685:7685'
-  #   networks:
-  #     - depex
-  #   healthcheck:
-  #     test: wget http://localhost:7472 || exit 1
-  #     interval: 10s
-  #     timeout: 10s
-  #     retries: 5
-  #     start_period: 3s
 
   vuln_database_seeder:
     env_file: .env
